@@ -10,7 +10,8 @@ pipeline {
         
         stage('Docker Image build') {
             steps {
-				sh 'docker build -f Dockerfile'
+		    sh 'pwd'
+		    //sh 'docker build -f Dockerfile'
 				
                 
             }
